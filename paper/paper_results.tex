@@ -6,16 +6,13 @@
 \input{figure2}
 
 
-\section{Results}
-\label{sec:results}
 
 
+\subsection{Rating Adequacy of Russian-English}
 
 %\subsection{Rating of translations}
 
 An experienced English-Russian translator and grader rated all post-edited segments as well as the MT segments.%
-%
-\footnote{We include these adequacy judgements, along with the other data and code produced or used in this work, in the attached dataset and software supplements.}
 %in both human-readable tabular form and machine-readable CSV form in the attached dataset supplement.}
 %
 The rater was presented with blocks of 10 lines arranged in a vertical list:
@@ -30,13 +27,25 @@ below these were eight translations for the segment
 %
 listed in random order. 
 %
-The rater was asked to classify all the segment translations on an adequacy scale (see Table \Vref{judge_guidelines}) ranging from 2 (translation makes no sense) to 12 (translation is superior to the reference translation). 
+The rater was asked to classify all the segment translations on an adequacy scale (see Table \Vref{judge_guidelines_russian}) ranging from 2 (translation makes no sense) to 12 (translation is superior to the reference translation). 
 
 
-\todo[inline]{Add Spanish paragraph here}
+\subsection{Rating Adequacy of Russian-English}
 
+One experienced Spanish-English translator and grader and one Spanish-English bilingual rated all post-edited segments as well as the MT segments.
+%
+They did this in cooperation.
+%
+The raters were presented with blocks of six lines arranged in a vertical list: the first line was a source segment, the second was its machine translation, and below these were four translations for the segment listed in random order.
+%
+The raters were asked to classify all the segment translations on an adequacy scale (see Table \Vref{judge_guidelines_spanish}) ranging from 2 (translation makes no sense) to 10 (the meaning of the Spanish sentence is fully conveyed in the English translation). 
+% 
+For the rating of the segments in this experiment the top category used for the evaluation of the Russian segments was removed because in the Spanish experiment we did not use a reference translation.
 
+\section{Results}
+\label{sec:results}
 
+\subsection{Russian-English Adequacy}
 
 %The post-edited English segments
 
@@ -46,7 +55,14 @@ When alignments were omitted from the post-editing tool, the mean adequacy score
 %
 A Wilcoxon signed-rank test \citep{1945_Wilcoxon} showed that when participants were presented with alignments the ratings of their translations were significantly higher than when participants post-edited without access to alignments (N = 6, Z = -2.207, p = 0.027).
 
-\todo[inline]{Add Spanish paragraph here}
+
+\input{figure3}
+
+\subsection{Spanish-English Adequacy}
+
+The mean adequacy score when Spanish bilingual participants were presented with alignments was 8.65. When alignments were omitted from the post-editing tool, the mean adequacy score was 8.57. These means were not significantly different.
+
+\subsection{Analysis}
 
 This finding indicates that, at least for this language pair and data set, bilingual post-editors produce higher quality translations when presented with bilingual alignment links between source words and machine-translated target words.
 
@@ -54,20 +70,19 @@ In addition to rating each post-edited translation, our bilingual human judge ra
 %
 We thereby obtained direct human judgements of MT quality.%
 %
-\footnote{Because we care about the adequacy of post-edited translations, we consider actual human judgements to be preferable to automated metrics such as BLEU \citep{2002_ACL_Papineni_etal}, which at best serve as a flawed proxy for human judgements.}
-%
+Because we care about the adequacy of post-edited translations, we consider actual human judgements to be preferable to automated metrics such as BLEU \citep{2002_ACL_Papineni_etal}, which at best serve as a flawed proxy for human judgements.
+
 We partition the data according to the MT quality as measured by our human judge in terms of adequacy.
 %
 For each partition, we then calculate the mean adequacy score of post-edited segments, once for the case where post-editors were presented with alignment data, and once for the case where alignments were not presented.
 %
 In addition, we perform the same average calculation for the monolingual post-edited segments of Docs A and B from \citet{2014_WMT_Schwartz_etal}.
 %
-The results are shown in Figure \Vref{fig:mean_adequacy_score}.
+The results are shown in Figure \ref{fig:mean_adequacy_score}.
 
 
 %\clearpage 
 
-\input{figure3}
 
 
 \input{figure4}

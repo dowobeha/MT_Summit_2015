@@ -20,6 +20,7 @@
 \end{tabular}
 \end{center}
 \caption{Russian-English}
+\label{judge_guidelines_russian}
 \end{subtable}
 \begin{subtable}[b]{.5\linewidth}
 \begin{center}
@@ -36,15 +37,15 @@
 \caption{Spanish-English}
 \label{judge_guidelines_spanish}
 \end{subtable}
-\caption{Adequacy evaluation guidelines for bilingual Russian-English human judges \citep{2014_WMT_Schwartz_etal}, and for bilingual Spanish-English human judges. Because no reference translation was available for Spanish-English, the 12 category is omitted.}
+\caption{Adequacy evaluation guidelines for bilingual Russian-English human judges \citep{2014_WMT_Schwartz_etal}, and for bilingual Spanish-English human judges \citep{2009_EACL_Albrecht_etal}. Because no reference translation was available for Spanish-English, the 12 category is omitted.}
 \label{judge_guidelines}
 \end{table*}
 
 
 
-\subsection{Participants}
 
-There were six participants who served as post-editors in this study, all of whom were paid for their time.
+\subsection{Russian-English Bilingual Participants}
+There were six participants who served as post-editors in the Russian-English portion of this study, all of whom were paid for their time.
 %
 These participants were all English-Russian bilinguals.
 %
@@ -52,16 +53,22 @@ Four of the six bilingual participants (PE2, PE3, PE4, \& PE6) had Russian as th
 %
 The other two bilingual participants (PE1 \& PE5) had English as their first language and were highly proficient in Russian as their second language.
 %
-Three of the six bilingual participants were graduate students and three were undergraduate students; all were enrolled in a Russian Translation program at an American university. %and three were undergraduate students in the same program.
+Three of the six bilingual participants were graduate students and three were undergraduate students; all were enrolled in a university Russian Translation program. %and three were undergraduate students in the same program.
 %a Russian Translation program at the same American university.
 
 %In addition, we made use of monolingual post-editing data previously released by \citet{2014_WMT_Schwartz_etal}.
 %
 %The relevant participant in that study was a native English speaker with no knowledge of Russian.
 
-\todo[inline]{Add Spanish paragraph here}
+\subsubsection{Spanish-English Bilingual Participants}
 
-\subsection{Materials}
+There were four participants (PE7, PE8, PE9, PE10) who served as post-editors in this portion of the study, all of whom were paid for their time. 
+%
+They were all Spanish-English bilinguals with English as their first language (L1) and highly proficient in Spanish as their second language (L2). 
+%
+The four were second year students in a university Master of Spanish Translation program. 
+
+\subsection{Russian Data}
 
 We selected as source texts a subset of the texts from the 2014 Workshop on Statistical Machine Translation (WMT-14) shared translation task \citep{2014_WMT_Bojar_etal}.
 %
@@ -88,8 +95,32 @@ As a side effect of the phrase-based MT process, Moses can be configured to prod
 %
 To enable maximal comparability with the post-editing results of \citet{2014_WMT_Schwartz_etal}, we make use of those machine translations and alignments in this work.
 
-\todo[inline]{Add Spanish paragraph here}
+\input{alignments_true}
 
+\subsection{Spanish Data}
+
+Two Spanish source texts were selected. Both were extracts from a news article from a Spanish newspaper covering current world news events. 
+%
+The two texts were divided up into segments that corresponded to sentences or stand alone phrases. 
+%
+The first text (Doc C) had 26 segments that varied in length from 4 to 24 words (mean length 15 words) and the second text (Doc D) had 25 segments that varied in length from 4 to 28 words (mean length 16 words).
+%
+No reference translations exist for either Spanish text.
+The Spanish source texts were translated automatically using the Microsoft Bing Translator through its online developer API.
+%
+Bing Translator, when accessed via the developer API, can be configured to return character-level alignment links from source characters to target characters, in addition to  translated target language sentences.
+%
+Our scripts derive word alignments from the character alignments returned by the Bing Translator API.
+
+
+
+
+
+
+
+
+
+\subsection{Russian-English Post-Editing Interface}
 
 Each text was presented to post-editors in one of two variant modalities using the post-editing interface of \citet{2014_WMT_Schwartz_etal}. 
 %
@@ -99,7 +130,6 @@ In variant 1, the alignment links produced by Moses were graphically displayed, 
 %
 In variant 2, the alignment links were omitted from the visualization interface.
 
-\input{figure1}
 
 Each participant was instructed to edit one of the two texts using the interface where alignment links were shown,
 %
@@ -113,29 +143,45 @@ Post-Editors 1, 3, and 5 were assigned Doc A using variant 2 and Doc B using the
 
 %For each of the segments there was also a reference translation created by XXXX.
 
-\todo[inline]{Add Spanish paragraph here}
+\subsection{Spanish-English Post-Editing Interface}
 
+Participants post-edited one text using the interface where alignment links were shown and the other text using the interface where alignment links were omitted. 
+%
+Participants post-edited the two texts in one session lasting less than one hour. 
+%
+Post-editors 7 and 9 edited Doc C using the interface that omitted the alignments and Doc D using the interface that displayed the alignments. 
+%
+Post-editors 8 and 10 edited Doc C using the interface that displayed the alignments and Doc D using the interface that omitted the alignments.
 
+\input{figure1}
 
 \subsection{Procedure}
 
 Participants performed the test individually in an office setting and were instructed to minimally post-edit. 
 %
-Specifically, they were asked to disregard issues of style and to focus on 
+Specifically, participants were asked to disregard issues of style and to focus on 
 %
 a) how well the translation conveyed the meaning of the source text, and 
 %
 b) the grammatical correctness of the translated segments. 
 %
-Participants sat in front of a computer that displayed the source texts divided up into segments \cite[Figure 1]{2014_WMT_Schwartz_etal}. % (see \citet{2014_WMT_Schwartz_etal}).
+Participants sat in front of a computer that displayed the source texts divided up into segments (see Figure \ref{fig:screenshot_true} \vpageref[above]{fig:screenshot_true}). % (see \citet{2014_WMT_Schwartz_etal}).
 %
 Directly below each source text segment, its machine translation was displayed.
 %
 Below that was an active response area, where participants were asked to carry out the post-editing.
-%
-The only data collected was the final post-edited output and the overall time taken per text.
 
-\todo[inline]{Add Spanish paragraph here}
+During initial data collection (the Russian-English condition), the only data collected was the final post-edited output and the overall time taken per text.
+%
+Subsequently, we enhanced the post-editing software with additional logging functionality, enabling the software to record key-logging and mouse-logging data.
+%
+For the subsequent Spanish-English condition, this enhanced software was utilized; for this condition millisecond-precision keyboard-event and mouse-event logs were recorded in addition to collecting final post-edited output and overall time taken per text.
+
+We believe that scientific inquiry is at its strongest when experiments can be easily replicated, and when the raw and processed data from such experiments can be directly verified by reviewers, readers, and other experimenters.
+%
+In that spirit, all data and code produced or used in this work are provided in the attached dataset and software supplements.
+%
+This includes all logs, along with raw machine translation output, alignment data, post-edited output, adequacy judgements, post-editing software, and supplementary scripts.
 
 
 
