@@ -1,0 +1,10 @@
+binary/
+data.unused/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz

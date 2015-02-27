@@ -1,0 +1,76 @@
+% !TEX root = paper.tex
+% !TEX encoding = UTF-8 Unicode
+
+\begin{figure*}[t]
+\begin{subfigure}[b]{.5\linewidth}
+\begin{tikzpicture}[trim left={(-0.5,0)},trim axis right]
+\begin{axis}[
+    ybar,
+    enlargelimits=0.15,
+    legend style={at={(0.5,1.05)},anchor=south},
+   ylabel={Mean Adequacy Score by Participant},
+   xlabel={Post-Editor},
+   % symbolic x coords={PE0,PE1,PE2,PE3,PE4,PE5,PE6},
+    xtick={0,1,2,3,4,5,6},
+    xticklabels={PE0,PE1,PE2,PE3,PE4,PE5,PE6},
+	xtick pos=left,
+	ytick pos=left,
+	ylabel shift={-0.15cm},
+    %xtick=data,
+    %nodes near coords,
+    %nodes near coords align={vertical},
+    bar width=5pt
+    ]
+
+\addplot coordinates { (0,7.0) (0,6.1)};
+\addplot coordinates { (1,8.0) (2,9.8) (3,9.0) (4,8.2) (5,7.4) (6,7.7)};
+\addplot coordinates { (1,7.6) (2,9.3) (3,8.8) (4,7.6) (5,6.7) (6,7.1)};
+
+\addplot[red,sharp plot,update limits=false] 
+	coordinates {(-1,6.1) (8,6.1)};
+	%node[above] at (axis cs:3,6.1) {Unedited MT};
+	
+%%\addplot coordinates {(tool8,1) (tool9,1) (tool10,1)};
+\legend{Monolingual PE with Alignments, PE with Alignments,PE no Alignments}
+\end{axis}
+\end{tikzpicture}
+\caption{Russian-English}
+\label{fig:mean_adequacy_score_per_posteditor_ru}
+\end{subfigure}
+\begin{subfigure}[b]{.5\linewidth}
+\begin{tikzpicture}[trim left={(-0.5,0)},trim axis right]
+\begin{axis}[
+    ybar,
+    enlargelimits=0.15,
+    legend style={at={(0.5,1.05)},anchor=south},
+%   ylabel={Mean Adequacy Score by Participant},
+   xlabel={Post-Editor},
+   % symbolic x coords={PE0,PE1,PE2,PE3,PE4,PE5,PE6},
+    xtick={1,2,3,4},
+    xticklabels={PE7,PE8,PE9,PE10},
+	xtick pos=left,
+	ytick pos=left,
+	ylabel shift={-0.15cm},
+	ymin=6,
+	ymax=10,
+    %xtick=data,
+    %nodes near coords,
+    %nodes near coords align={vertical},
+    bar width=5pt
+    ]
+
+\addplot coordinates {};
+\addplot coordinates {(1,8.8) (2,8.461538461538462) (3,8.56) (4,8.76923076923077) };
+\addplot coordinates {(1,8.23076923076923) (2,8.72) (3,8.461538461538462) (4,8.88) };
+\addplot[red,sharp plot,update limits=false] coordinates { (-1,7.686274509803922) (12,7.686274509803922) };
+
+%%\addplot coordinates {(tool8,1) (tool9,1) (tool10,1)};
+\legend{PE with Alignments,PE no Alignments}
+\end{axis}
+\end{tikzpicture}
+\caption{Spanish-English}
+\label{fig:mean_adequacy_score_per_posteditor_es}
+\end{subfigure}
+\caption{Mean adequacy score per post-editor. The red horizontal line indicates the mean adequacy score (Russian-English: 6.1; Spanish-English: 7.7) of the unedited MT.}
+\label{fig:mean_adequacy_score_per_posteditor}
+\end{figure*}

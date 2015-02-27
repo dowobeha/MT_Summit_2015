@@ -1,0 +1,48 @@
+% !TEX root = paper.tex
+% !TEX encoding = UTF-8 Unicode
+
+\usepackage{acl2015}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+
+
+
+\usepackage{fontspec} % Used by polyglossia
+\usepackage{polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+ SmallCapsFont=CMU Serif,
+ SmallCapsFeatures={Letters=SmallCaps},
+]{Times New Roman}
+\setmainlanguage{english}
+\setotherlanguages{russian,ukrainian,chinese}
+\newfontfamily\cyrillicfont{Times New Roman}
+\newfontfamily\chinesefont{MingLiU}
+\newfontfamily\urdufont{Times New Roman}
+
+
+
+
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+
+
+\newcommand{\citep}[1]{\cite{#1}}
+\newcommand{\citet}[1]{\newcite{#1}}
+
+
+\usepackage{numprint}
+
+\usepackage{subcaption}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+
+\newcommand*\pct{\scalebox{.7}{\%}}
+
+\usepackage{cleveref}
+\usepackage{varioref}
+
+\usepackage{todonotes}

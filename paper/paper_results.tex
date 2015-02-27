@@ -1,0 +1,109 @@
+% !TEX root = paper.tex
+% !TEX encoding = UTF-8 Unicode
+
+
+
+\input{figure2}
+
+
+\section{Results}
+\label{sec:results}
+
+
+
+%\subsection{Rating of translations}
+
+An experienced English-Russian translator and grader rated all post-edited segments as well as the MT segments.%
+%
+\footnote{We include these adequacy judgements, along with the other data and code produced or used in this work, in the attached dataset and software supplements.}
+%in both human-readable tabular form and machine-readable CSV form in the attached dataset supplement.}
+%
+The rater was presented with blocks of 10 lines arranged in a vertical list:
+%
+the first line was a source segment, 
+%
+the second was its reference translation, and 
+%
+below these were eight translations for the segment 
+%
+(the MT, one monolingual post-edited translation from \citet{2014_WMT_Schwartz_etal}, and six bilingual post-edited translations) 
+%
+listed in random order. 
+%
+The rater was asked to classify all the segment translations on an adequacy scale (see Table \Vref{judge_guidelines}) ranging from 2 (translation makes no sense) to 12 (translation is superior to the reference translation). 
+
+
+\todo[inline]{Add Spanish paragraph here}
+
+
+
+
+%The post-edited English segments
+
+The mean adequacy score when bilingual participants were presented with alignments was 8.35.
+%
+When alignments were omitted from the post-editing tool, the mean adequacy score was 7.85.  
+%
+A Wilcoxon signed-rank test \citep{1945_Wilcoxon} showed that when participants were presented with alignments the ratings of their translations were significantly higher than when participants post-edited without access to alignments (N = 6, Z = -2.207, p = 0.027).
+
+\todo[inline]{Add Spanish paragraph here}
+
+This finding indicates that, at least for this language pair and data set, bilingual post-editors produce higher quality translations when presented with bilingual alignment links between source words and machine-translated target words.
+
+In addition to rating each post-edited translation, our bilingual human judge rated the adequacy of the unedited MT segments.
+%
+We thereby obtained direct human judgements of MT quality.%
+%
+\footnote{Because we care about the adequacy of post-edited translations, we consider actual human judgements to be preferable to automated metrics such as BLEU \citep{2002_ACL_Papineni_etal}, which at best serve as a flawed proxy for human judgements.}
+%
+We partition the data according to the MT quality as measured by our human judge in terms of adequacy.
+%
+For each partition, we then calculate the mean adequacy score of post-edited segments, once for the case where post-editors were presented with alignment data, and once for the case where alignments were not presented.
+%
+In addition, we perform the same average calculation for the monolingual post-edited segments of Docs A and B from \citet{2014_WMT_Schwartz_etal}.
+%
+The results are shown in Figure \Vref{fig:mean_adequacy_score}.
+
+
+%\clearpage 
+
+\input{figure3}
+
+
+\input{figure4}
+
+
+We observe that when MT quality was poor (adequacy categories 2--6), bilingual post-editors consistently produced higher quality post-edited translations when alignments were shown.
+%
+When MT quality was high (adequacy categories 8--10), little or no impact to adequacy quality was observed when alignments were shown. 
+%
+By subtracting the adequacy score of each machine translated segment, we obtain the adequacy gain obtained by post-editing.
+%
+The above effect can be seen clearly in Figure \Vref{fig:mean_adequacy_gain}, where we show mean gain in adequacy over unedited MT;
+%
+post-editing makes the most difference when MT quality is poor, and in those cases the presence of alignment links improves post-editing as measured by adequacy.
+
+
+In Figure \ref{fig:mean_adequacy_score_per_posteditor}, we examine the effect that alignment link visualization has on each bilingual post-editor.
+%
+We observe that post-editing quality varies widely between post-editors (with PE2 and PE3 performing best).
+%
+For all six bilingual post-editors, we observe higher mean adequacy scores when alignment links were presented than when they were omitted from the post-editing tool.
+%
+We also note that when alignment links were absent, one bilingual post-editor (PE5) performed worse than the monolingual post-editor (PE0) from \citet{2014_WMT_Schwartz_etal}.
+%
+When compared to the unedited machine translations, post-editing resulted in improved mean adequacy for all post-editors, both bilingual and monolingual.
+
+Finally, in Figure \ref{fig:percentage_segments} we present histograms graphing the percentage of segments in each adequacy category.
+%
+We observe that the majority of unedited machine translations are of relatively poor quality, falling mostly into categories 4 and 6. %, and a few scoring as 12.
+%
+%The monolingual post-editor from \citet{2014_WMT_Schwartz_etal} was able to skew the quality histogram somewhat to the right, with most segments scored as 6 or 10, and a few scored as better than the reference (12).
+The monolingual post-editor improved MT quality somewhat, with most segments scoring as 6 or 10.
+%
+The histogram for bilingual post-editors using no alignments skewed further to the right, peaking at 8.
+%
+The histogram for bilingual post-editors with access to alignments skews farthest to the right, peaking at 10.
+
+
+

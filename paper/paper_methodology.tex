@@ -1,0 +1,141 @@
+% !TEX root = paper.tex
+% !TEX encoding = UTF-8 Unicode
+
+\section{Methodology}
+\label{sec:methodology}
+
+
+
+\begin{table*}[t]
+\begin{subtable}[b]{.5\linewidth}
+\begin{center}
+\begin{tabular} { | c | p{66mm} | }
+\hline
+  12 & The post-edited translation is superior to the reference translation \\ \hline
+  10 & The meaning of the Russian sentence is fully conveyed in the English translation \\ \hline
+  8 & Most of the meaning of the Russian sentence is conveyed in the English translation \\ \hline
+  6 & The English translation misunderstands the Russian sentence in a major way, or has many small mistakes \\ \hline
+  4 & Very little information from the Russian sentence is conveyed in the English translation \\ \hline
+  2 & The English translation makes no sense at all \\ \hline
+\end{tabular}
+\end{center}
+\caption{Russian-English}
+\end{subtable}
+\begin{subtable}[b]{.5\linewidth}
+\begin{center}
+\begin{tabular} { | c | p{66mm} | }
+\hline
+  10 & The meaning of the Spanish sentence is fully conveyed in the English translation \\ \hline
+%  9 & The English translation contains one minor error \\ \hline
+  8 & Most of the meaning of the Spanish sentence is conveyed in the English translation \\ \hline
+  6 & The English translation misunderstands the Spanish sentence in a major way, or has many small mistakes \\ \hline
+  4 & Very little information from the Spanish sentence is conveyed in the English translation \\ \hline
+  2 & The English translation makes no sense at all \\ \hline
+\end{tabular}
+\end{center}
+\caption{Spanish-English}
+\label{judge_guidelines_spanish}
+\end{subtable}
+\caption{Adequacy evaluation guidelines for bilingual Russian-English human judges \citep{2014_WMT_Schwartz_etal}, and for bilingual Spanish-English human judges. Because no reference translation was available for Spanish-English, the 12 category is omitted.}
+\label{judge_guidelines}
+\end{table*}
+
+
+
+\subsection{Participants}
+
+There were six participants who served as post-editors in this study, all of whom were paid for their time.
+%
+These participants were all English-Russian bilinguals.
+%
+Four of the six bilingual participants (PE2, PE3, PE4, \& PE6) had Russian as their first language (L1) and were highly proficient in English as their second language (L2).
+%
+The other two bilingual participants (PE1 \& PE5) had English as their first language and were highly proficient in Russian as their second language.
+%
+Three of the six bilingual participants were graduate students and three were undergraduate students; all were enrolled in a Russian Translation program at an American university. %and three were undergraduate students in the same program.
+%a Russian Translation program at the same American university.
+
+%In addition, we made use of monolingual post-editing data previously released by \citet{2014_WMT_Schwartz_etal}.
+%
+%The relevant participant in that study was a native English speaker with no knowledge of Russian.
+
+\todo[inline]{Add Spanish paragraph here}
+
+\subsection{Materials}
+
+We selected as source texts a subset of the texts from the 2014 Workshop on Statistical Machine Translation (WMT-14) shared translation task \citep{2014_WMT_Bojar_etal}.
+%
+Source texts were news articles covering world news events in late 2013.
+%
+The first text (Doc A) was originally a Russian-language BBC news article covering Syrian chemical weapons.
+%
+The second text (Doc B) was originally an English-language news article covering U.S. spying policy.
+%
+The texts were divided into segments that corresponded to sentences or stand-alone phrases (typically corresponding to news headlines, captions, or cutlines).
+%
+Segments in Doc A varied in length from 3 to 35 words (mean length 17 words); 
+%
+segments in Doc B varied in length from 9 to 55 words (mean length 23 words).
+
+
+Professional translations of Doc A into English and Doc B into Russian were commissioned as part of the WMT-14 shared translation task \citep{2014_WMT_Bojar_etal}.
+%
+%Doc A consists of 27 segments; Doc B has 28 segments.
+%
+The Russian version of each text was translated automatically using Moses \citep{2007_ACL_Koehn} by \citet{2014_WMT_Schwartz_etal} as part of their WMT14 shared task submission.
+%
+As a side effect of the phrase-based MT process, Moses can be configured to produce alignment links, indicating which target language words were produced from which source language words.
+%
+To enable maximal comparability with the post-editing results of \citet{2014_WMT_Schwartz_etal}, we make use of those machine translations and alignments in this work.
+
+\todo[inline]{Add Spanish paragraph here}
+
+
+Each text was presented to post-editors in one of two variant modalities using the post-editing interface of \citet{2014_WMT_Schwartz_etal}. 
+%
+In both variants, each Russian source segment was presented along with the corresponding machine translated English segment; a text field (initially populated with the machine translated segment) where the post-editor could make changes was also presented.
+%
+In variant 1, the alignment links produced by Moses were graphically displayed, linking source words to their corresponding machine translated target words.
+%
+In variant 2, the alignment links were omitted from the visualization interface.
+
+\input{figure1}
+
+Each participant was instructed to edit one of the two texts using the interface where alignment links were shown,
+%
+and to edit the other text using the interface where alignment links were omitted.
+%
+Participants post-edited the two texts in one session lasting less than two hours, although there were no time limits set for the task.
+%
+Post-Editors 2, 4, and 6 were assigned to post-edit Doc A using the variant 1 interface that displayed alignments, and Doc B using the variant 2 interface that omitted alignments.
+%
+Post-Editors 1, 3, and 5 were assigned Doc A using variant 2 and Doc B using the variant 1 interface.
+
+%For each of the segments there was also a reference translation created by XXXX.
+
+\todo[inline]{Add Spanish paragraph here}
+
+
+
+\subsection{Procedure}
+
+Participants performed the test individually in an office setting and were instructed to minimally post-edit. 
+%
+Specifically, they were asked to disregard issues of style and to focus on 
+%
+a) how well the translation conveyed the meaning of the source text, and 
+%
+b) the grammatical correctness of the translated segments. 
+%
+Participants sat in front of a computer that displayed the source texts divided up into segments \cite[Figure 1]{2014_WMT_Schwartz_etal}. % (see \citet{2014_WMT_Schwartz_etal}).
+%
+Directly below each source text segment, its machine translation was displayed.
+%
+Below that was an active response area, where participants were asked to carry out the post-editing.
+%
+The only data collected was the final post-edited output and the overall time taken per text.
+
+\todo[inline]{Add Spanish paragraph here}
+
+
+
