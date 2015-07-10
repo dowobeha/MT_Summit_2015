@@ -9,12 +9,38 @@ The use of basic post-editing tools by bilingual human translators has been show
 %
 More sophisticated interactive interfaces \citep{2000_NAACL_Langlais_etal,2009_CL_Barrachina,2009_ACL_Koehn,2012_AMTA_Denkowski_Lavie} may also provide benefit \citep{2009_MT_Koehn}.
 
-Small-scale studies have suggested that monolingual human post-editors, working without knowledge of the source language, can also improve the quality of machine translation output \citep{2005_NIST_CallisonBurch,2010_NAACL_Koehn,2013_WPTP_Mitchell_etal}, especially if well-designed tools provide automated linguistic analysis of source sentences \citep{2009_EACL_Albrecht_etal}.
-%
-\citet{2014_WMT_Schwartz_etal} confirmed this result with eight monolingual post-editors on a larger 3000 sentence test corpus.
-%
-\citet{2014_WPTP_Schwartz} demonstrated that a monolingual post-editor who is a domain expert in the translated material can successfully post-edit.
 
-In this work, we conduct a bilingual post-editing experiment (\S\ref{sec:methodology}), in which six Russian-English bilingual translation students were asked to post-edit news articles that were previously machine translated from Russian into English.
+
+
+
+
+
+The question of how a post-editing interface should be configured and presented to users is a fundamentally interdisciplinary and empirical one.
 %
-We find (\S\ref{sec:results}) that post-editing quality is consistently higher, by a statistically significant amount, when bilingual post-editors are presented with alignment data.
+Issues of user interface design, human factors, translation studies, and machine translation quality are all likely relevant.
+%
+Phrase-based machine translation can be configured to produce alignment data that indicates which machine translated target language words correspond to which original source language words.
+%
+In most prior work that examined the efficacy of post-editing machine translation, post-editors were presented with machine translations (and in most cases the original source language sentences) without also being presented with source-to-target alignment links.
+
+This work begins an attempt to answer two novel questions regarding post-editing interface design: 
+%
+To what extent, if at all, does the presentation of source-to-target word-level alignment links affect the quality or speed of post-editing?
+%
+Is any such effect, if it exists, dependent on certain aspects of machine translation quality, or on the language pair?
+
+
+
+To address these questions, we conduct a bilingual post-editing experiment (\S\ref{sec:methodology}) where bilingual post-editors are presented with machine translation output of varying quality, with and without word-level alignment link visualization.
+%
+In the first condition, we ask six Russian-English bilingual translation students to post-edit two Russian language news articles starting with relatively low quality English machine translation.
+%
+In the second condition, we ask four Spanish-English bilingual translation students to post-edit two Spanish language news articles starting with relatively high quality English machine translation.
+%
+We find (\S\ref{sec:results}) that when machine translation quality is low, post-editing quality is consistently higher, by a statistically significant amount, when bilingual post-editors are presented with alignment data.
+%
+We find no statistically significant effect when machine translation quality is high.
+%
+We also found that for both Russian-English and Spanish-English the mean post-editing times were shorter for texts with alignment than for texts without alignment. These differences were not significant, but the difference for the Russian-English texts approached significance. 
+%
+Finally, in \S\ref{sec:background} we briefly survey the current state of post-editing research and situate this work within the context of related work in post-editing.

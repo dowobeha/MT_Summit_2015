@@ -1,8 +1,8 @@
 % !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
-\begin{figure*}
-\begin{subfigure}[b]{.5\linewidth}
+\begin{figure}
+\begin{subfigure}[b]{\linewidth}
 \begin{center}
 \begin{tikzpicture}[trim left={(-0.5,0)}]
 \begin{axis}[
@@ -49,7 +49,8 @@
 \caption{Russian-English}
 \label{fig:percentage_segments_ru}
 \end{subfigure}
-\begin{subfigure}[b]{.5\linewidth}
+\ \\
+\begin{subfigure}[b]{\linewidth}
 \begin{center}
 \begin{tikzpicture}[trim left={(-0.5,0)}]
 \begin{axis}[
@@ -70,7 +71,7 @@
 	%,
 %	legend style={at={(0.5,-0.15)}},
 %		anchor=north,legend columns=-1},
-	legend style={at={(0.5,1.40)},anchor=north},
+	legend style={at={(0.5,1.30)},anchor=north},
 	ybar,
 	bar width=4pt,
 ]
@@ -91,6 +92,6 @@
 \caption{Spanish-English}
 \label{fig:percentage_segments_es}
 \end{subfigure}
-\caption{\% of segments in each adequacy category.}
-\label{fig:percentage_segments_en}
-\end{figure*}
+\caption{Percentage of segments judged to be in each adequacy category. For each language pair, we report percentages for raw (unedited) machine translation output, as well as output post-edited by a bilingual post-editor with access to alignments and without access to alignments. For Russian-English, we additionally report percentages for output post-edited by a monolingual post-editor \citep{2014_WMT_Schwartz_etal} with access to alignments.}
+\label{fig:percentage_segments}
+\end{figure}

@@ -1,10 +1,11 @@
 % !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
-\begin{figure*}[t]
-\begin{subfigure}[b]{.5\linewidth}
+\begin{figure}
+\begin{subfigure}[b]{\linewidth}
+\begin{center}
 \begin{tikzpicture}[trim left={(-0.5,0)},trim axis right]
-\begin{axis}[
+\begin{axis}[%scale only axis=true, width=80mm, height=73mm,
     ybar,
     enlargelimits=0.15,
     legend style={at={(0.5,1.05)},anchor=south},
@@ -36,10 +37,13 @@
 \end{tikzpicture}
 \caption{Russian-English}
 \label{fig:mean_adequacy_score_per_posteditor_ru}
+\end{center}
 \end{subfigure}
-\begin{subfigure}[b]{.5\linewidth}
+\ \\ \ \\
+\begin{subfigure}[b]{\linewidth}
+\begin{center}
 \begin{tikzpicture}[trim left={(-0.5,0)},trim axis right]
-\begin{axis}[
+\begin{axis}[%scale only axis=true, width=60mm, height=73mm,
     ybar,
     enlargelimits=0.15,
     legend style={at={(0.5,1.05)},anchor=south},
@@ -68,9 +72,10 @@
 \legend{PE with Alignments,PE no Alignments}
 \end{axis}
 \end{tikzpicture}
+\end{center}
 \caption{Spanish-English}
 \label{fig:mean_adequacy_score_per_posteditor_es}
 \end{subfigure}
 \caption{Mean adequacy score per post-editor. The red horizontal line indicates the mean adequacy score (Russian-English: 6.1; Spanish-English: 7.7) of the unedited MT.}
 \label{fig:mean_adequacy_score_per_posteditor}
-\end{figure*}
+\end{figure}

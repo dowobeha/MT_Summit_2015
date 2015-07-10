@@ -1,8 +1,11 @@
 % !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
-\begin{figure*}[!ht]
-\begin{subfigure}[b]{.5\linewidth}
+\begin{figure}
+\begin{subfigure}[b]{\linewidth}
+\begin{center}
+\caption{Russian-English}
+\label{fig:mean_adequacy_score_ru}
 \begin{tikzpicture}[trim left={(-0.5,0)}]
 \begin{axis}[
 	%at={(10,0)},
@@ -39,10 +42,13 @@
 \legend{Monolingual PE with Alignments,Bilingual PE with Alignments,Bilingual PE no Alignments}
 \end{axis}
 \end{tikzpicture}
-\caption{Russian-English}
-\label{fig:mean_adequacy_score_ru}
+\end{center}
 \end{subfigure}
-\begin{subfigure}[b]{.5\linewidth}
+\ \\
+\begin{subfigure}[b]{\linewidth}
+\begin{center}
+\caption{Spanish-English}
+\label{fig:mean_adequacy_score_es}
 \begin{tikzpicture}[trim left={(-0.5,0)}]
 \begin{axis}[
 	%at={(10,0)},
@@ -54,7 +60,7 @@
 	xtick pos=left,
 	ytick pos=left,
 	xlabel={Adequacy of unedited MT},
-	legend style={at={(0.5,1.35)},anchor=north},
+	legend style={at={(0.5,1.25)},anchor=north},
 	ybar,
 	xmin=2,
 	bar width=5pt,
@@ -69,10 +75,9 @@
 \legend{Bilingual PE with Alignments,Bilingual PE no Alignments}
 \end{axis}
 \end{tikzpicture}
-\caption{Spanish-English}
-\label{fig:mean_adequacy_score_es}
+\end{center}
 \end{subfigure}
 \caption{Mean adequacy score, categorized by the adequacy score of the unedited MT. The red horizontal line indicates the mean adequacy score (Russian-English: 6.1; Spanish-English: 7.7) of the unedited MT.}
 \label{fig:mean_adequacy_score}
-\end{figure*}
+\end{figure}
 
