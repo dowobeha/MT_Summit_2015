@@ -1,4 +1,4 @@
-% !TEX root = paper.tex
+﻿% !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
 
@@ -42,7 +42,7 @@ a post-edited translation produced by a monolingual post-editor from \citet{2014
 %
 and the six post-edited translations produced by the Russian-English bilingual post-editors in this study.
 
-All Russian-English translations were rated using the translation adequacy scale in Table \Vref{judge_guidelines_russian}, with possible ratings ranging from  2 (translation makes no sense) to 12 (translation is superior to the reference translation).
+All Russian-English translations were rated using the translation adequacy scale in Table \Vref{judge_guidelines_russian}, with possible ratings ranging from 2 (translation makes no sense) to 12 (translation is superior to the reference translation).
 
 %The human rater was presented with blocks of 10 lines arranged in a vertical list:
 %%
@@ -75,21 +75,22 @@ For each segment, the human raters were presented with a vertically-arranged lis
 %
 The first entry in each list was the segment in the source language (Spanish).
 %
-The source segment was followed by the reference translation in English.
-%
-The subsequent five entries were English translations of the source segment, presented in a randomized order.
+The subsequent twelve entries were English translations of the source segment, presented in a randomized order.
 %
 The English translations included the unedited machine translation output, as produced by Bing Translator,
 %
-and the four post-edited translations produced by the Spanish-English bilingual post-editors in this study.
+and the eleven post-edited translations produced by the Spanish-English bilingual post-editors in this study.
 
 Unlike the Russian documents, no reference translation was available for the Spanish documents; for this reason (as described in \S\ref{sec:translation_quality}), the top category (12) used in evaluating Russian-English segments was omitted from the Spanish-English evaluation.
 %
-All Spanish-English translations were rated using the translation adequacy scale in Table \Vref{judge_guidelines_spanish}, with possible ratings ranging from  2 (translation makes no sense) to 10 (the meaning of the Spanish sentence is fully conveyed in the English translation).
+All Spanish-English translations were rated using the translation adequacy scale in Table \Vref{judge_guidelines_spanish}, with possible ratings ranging from 2 (translation makes no sense) to 10 (the meaning of the Spanish sentence is fully conveyed in the English translation).
+%
+Unlike all other participants, participant PE17 consistently produced post-edited segments of lower adequacy than the corresponding raw MT output. This participant was therefore dropped from all analyses of the Spanish-English data.
+
 %
 %
 %%
-%The raters were presented with blocks of six lines arranged in a vertical list: the first line was a source segment, the second was its machine translation, and below these were four translations for the segment listed in random order.
+%The raters were presented with blocks of twelve lines arranged in a vertical list: the first line was a source segment, and below these were the twelve translations for the segment listed in random order.
 %%
 %The raters were asked to classify all the segment translations on an adequacy scale (see Table \Vref{judge_guidelines_spanish}) ranging from 2 (translation makes no sense) to 10 (the meaning of the Spanish sentence is fully conveyed in the English translation). 
 % 
@@ -122,7 +123,7 @@ Two-thirds of Russian-English machine translation segments are judged to have ma
 %
 Contrast this with the Spanish-English machine translations segments; 
 %
-less than one-third are judged to have major errors (ratings 2-6), while the majority (over two-thirds) are rated as mostly or completely correct (8-10).
+a minority (about two-fifths) are judged to have major errors (ratings 2-6), while the majority (about three-fifths) are rated as mostly or completely correct (8-10).
 
 
 \input{figure2}
@@ -133,7 +134,7 @@ less than one-third are judged to have major errors (ratings 2-6), while the maj
 
 The mean adequacy score when bilingual participants were presented with alignments was 8.35.
 %
-When alignments were omitted from the post-editing tool, the mean adequacy score was 7.85.  
+When alignments were omitted from the post-editing tool, the mean adequacy score was 7.85. 
 %
 A Wilcoxon signed-rank test \citep{1945_Wilcoxon} showed that when participants were presented with alignments the ratings of their translations were significantly higher than when participants post-edited without access to alignments (N = 6, Z = -2.207, p = 0.027).
 
@@ -141,7 +142,7 @@ A Wilcoxon signed-rank test \citep{1945_Wilcoxon} showed that when participants 
 
 \subsubsection{Spanish-English Adequacy}
 
-The mean adequacy score when Spanish bilingual participants were presented with alignments was 8.65. When alignments were omitted from the post-editing tool, the mean adequacy score was 8.57. These means are not significantly different.
+The mean adequacy score when Spanish bilingual participants were presented with alignments was 8.22. When alignments were omitted from the post-editing tool, the mean adequacy score was 8.02. These means are not significantly different.
 
 
 
@@ -175,8 +176,10 @@ The times taken by the Russian-English post-editors to post-edit each text were 
 
 \subsubsection{Spanish-English Timing}
 
-The times taken by the Spanish-English post-editors to post-edit each text were recorded by the keylogger to nearest millisecond. The mean times were 16.36 minutes for texts with alignment and 16.66 minutes for texts without alignment. This difference was not statistically significant.
+The times taken by the Spanish-English post-editors to post-edit each text were recorded by the keylogger to nearest millisecond. The mean times were 21 minutes  and 5 seconds for texts with alignment and 22 minutes and 5 seconds for texts without alignment. An independent samples t-test showed that these times are not significantly different from each other (t(18) = .295, p = .77.) 
 %
+Participants were not given time limitations, so timing data must be interpreted with caution. Note, however, that the mean time with alignment is numerically shorter than the mean time without alignment.
+
 The shorter editing times for Spanish-English may in part be explained by the shorter length of these documents.
 
 
@@ -211,7 +214,7 @@ For all six bilingual post-editors, we observe higher mean adequacy scores when 
 %
 We also note that when alignment links were absent, one bilingual post-editor (PE5) performed worse than the monolingual post-editor (PE0) from \citet{2014_WMT_Schwartz_etal}.
 %
-On the other hand, in the Spanish-English condition, where overall MT quality is good, we observe relatively little variation in quality between the four post-editors.
+On the other hand, in the Spanish-English condition, where overall MT quality is good, we observe relatively little variation in quality between the ten post-editors.
 %
 When compared to the unedited machine translations, post-editing resulted in improved mean adequacy for all post-editors, both bilingual and monolingual.
 
@@ -225,6 +228,22 @@ If this is the case, shorter post-editing times for texts with alignment are con
 %
 Related work on cognitive effort in post-editing \citep{2014_AMTA_Lacruz_etal,2014_Lacruz_Shreve} has also shown decreased densities of short pauses when less cognitively demanding segments are post-edited. 
 
+The keystroke logging data gathered for Spanish-English post-editors allowed the computation of Pause to Word Ratio (PWR). For each segment, PWR is the ratio of the number of pauses exceeding 300ms to the number of words in the MT segment; it is a measure of cognitive effort in post-editing (Lacruz & Shreve, 2012). Higher PWR corresponds to higher cognitive effort.
+% INSERT REF TO FIG 6 AND INSERT FIG 6
+Contrary to expectation, the mean PWR for Spanish-English post-editors was slightly higher for the segments with alignment (0.70) than for those without alignment (0.63). However, the numerical difference was not significant. 
+
+It is possible that the effect of alignment on PWR was masked by the fact that the adequacy of the Spanish-English MT segments was generally high. Since our prediction is that alignment should both increase post-editing adequacy and reduce post-editing effort, the Gain to Effort Ratio, GER = (PE Rating – MT Rating)/PWR is a promising metric to investigate. We hypothesize that GER is higher for segments with alignment than for segments without alignment. 
+
+GER for segments with alignment was 2.53, and GER for segments without alignment was 1.47. Our prediction was confirmed: a paired samples t-test showed that GER was higher for segments with alignment (t(9) = 2.49, p =.034.)
+%INSERT REF TO FIG 7 AND INSERT FIG 7
+
+This result suggests that GER may be a robust metric for measuring the effects of alignment on post-editing. It would be interesting to conduct further studies involving language pairs different from Spanish-English where the adequacy of machine translations may be lower.
+
+
+
+
+
+
 
 
 %Finally, in Figure \ref{fig:percentage_segments} we present histograms graphing the percentage of segments in each adequacy category.
@@ -237,6 +256,8 @@ Related work on cognitive effort in post-editing \citep{2014_AMTA_Lacruz_etal,20
 %The histogram for bilingual post-editors using no alignments skewed further to the right, peaking at 8.
 %%
 %The histogram for bilingual post-editors with access to alignments skews farthest to the right, peaking at 10.
+
+
 
 
 
