@@ -1,12 +1,12 @@
-% !TEX root = paper.tex
+﻿% !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
 \section{Methodology}
 \label{sec:methodology}
 
-We hypothesize that the presentation of word-level alignment links to human post-editors may affect the quality or speed of the resulting output, and that such effects may be dependent on the quality of the underlaying machine translations.
+We hypothesize that the presentation of word-level alignment links to human post-editors may affect the quality or speed of the resulting output, and that such effects may be dependent on the quality of the underlying machine translations.
 %
-To test this hypothesis, we conduct a bilingual post-editing experiment  where bilingual post-editors are presented with machine translation output of varying quality, with and without word-level alignment link visualization. 
+To test this hypothesis, we conduct a bilingual post-editing experiment where bilingual post-editors are presented with machine translation output of varying quality, with and without word-level alignment link visualization. 
 
 
 \input{paper_table}
@@ -36,15 +36,15 @@ Three of the six bilingual participants were graduate students and three were un
 
 \subsubsection{Spanish-English Bilingual Participants}
 
-There were four participants who served as post-editors in the Spanish-English portion of this study, all of whom were paid for their time. 
+There were eleven participants who served as post-editors in the Spanish-English portion of this study, all of whom were paid for their time. 
 %
 They were all Spanish-English bilinguals.
 %
-We designate these participants as PE7--PE10.
+We designate these participants as PE7--PE17. 
 %
-The first language (L1) of all four participants was English, and all four were highly proficient in Spanish as their second language (L2). 
+The first language (L1) of all eleven participants was English, and all eleven were highly proficient in Spanish as their second language (L2). 
 %
-These participants were second year students in a university Master of Spanish Translation program. 
+These participants were students in a university Master of Spanish Translation program. 
 
 \subsection{Source Language Data}
 
@@ -83,7 +83,7 @@ To enable maximal comparability with the post-editing results of \citet{2014_WMT
 
 Two Spanish source texts were selected. Both were extracts from a news article from a Spanish newspaper covering current world news events. 
 %
-The two texts were divided up into segments that corresponded to sentences or stand alone phrases. 
+The two texts were divided up into segments that corresponded to sentences or stand-alone phrases. 
 %
 The first text had 26 segments that varied in length from 4 to 24 words (mean length 15 words) and the second text had 25 segments that varied in length from 4 to 28 words (mean length 16 words).
 %
@@ -93,7 +93,7 @@ No reference translations exist for either Spanish text.
 
 The Spanish source texts were translated automatically using Microsoft Bing Translator through its online developer API.
 %
-Bing Translator, when accessed via the developer API, can be configured to return character-level alignment links from source characters to target characters, in addition to  translated target language sentences.
+Bing Translator, when accessed via the developer API, can be configured to return character-level alignment links from source characters to target characters, in addition to translated target language sentences.
 %
 Our scripts derive word alignments from the character alignments returned by the Bing Translator API.
 
@@ -151,8 +151,8 @@ In the first variant, the word-level alignment links produced by the machine tra
 In the second variant, the word-level alignment links were omitted from the visualization interface.
 
 
-  \input{figure4}
- \subsection{Procedure}
+\input{figure4}
+\subsection{Procedure}
 
 Participants performed the test individually in an office setting and were instructed to minimally post-edit. 
 %
@@ -181,7 +181,6 @@ In that spirit, all data and code produced or used in this work are provided in 
 This includes all logs, along with raw machine translation output, alignment data, post-edited output, adequacy judgements, post-editing software, and supplementary scripts.
 
 
- 
 
 \subsubsection{Russian-English Participant Assignment}
 
@@ -209,9 +208,11 @@ Participants post-edited one text using the interface where alignment links were
 %
 Participants post-edited the two texts in one session lasting less than one hour. 
 %
-Post-editors 7 and 9 edited Doc C using the interface that omitted the alignments and Doc D using the interface that displayed the alignments. 
+Post-editors 7, 9, 11, 13, 15, and 17 edited Doc C using the interface that omitted the alignments and Doc D using the interface that displayed the alignments. 
 %
-Post-editors 8 and 10 edited Doc C using the interface that displayed the alignments and Doc D using the interface that omitted the alignments.
+Post-editors 8, 10, 12, 14, and 16 edited Doc C using the interface that displayed the alignments and Doc D using the interface that omitted the alignments.
+
+
 
 
 
