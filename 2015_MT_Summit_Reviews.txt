@@ -1,0 +1,189 @@
+Dear Lane Schwartz:
+
+On behalf of the MT Summit XV 2015 Program Committee, I am delighted
+to inform you that the following submission has been accepted
+as an Oral Presentation to appear at the conference:
+
+     Effects of Word Alignment Visualization on
+           Post-Editing Quality & Speed
+
+The Program Committee worked very hard to thoroughly review
+all the submitted papers.  Please repay their efforts, by
+following their suggestions when you revise your paper.
+
+When you are finished, you can upload your final manuscript
+at the following site:
+
+     https://www.softconf.com/mtsummit-xv/papers/
+
+Please note that camera ready copy for your paper are due by
+Monday, September 7th.
+
+You will be prompted to login to your START account.  If
+you do not see your submission, you can access it with the
+following passcode:
+
+     57X-G7B5F5H6B3
+
+Alternatively, you can click on the following URL, which will take you
+directly to a form to submit your final paper (after logging into your
+account):
+
+     https://www.softconf.com/mtsummit-xv/papers/user/scmd.cgi?scmd=aLogin&passcode=57X-G7B5F5H6B3
+
+The reviews and comments are attached below.  Again, try to follow
+their advice when you revise your paper.
+
+Congratulations on your fine work.  If you have any additional
+questions, please feel free to get in touch.
+
+
+Best Regards,
+Yaser Al-Onaizan and Will Lewis
+MT Summit XV 2015
+
+============================================================================
+MT Summit XV 2015 Reviews for Submission #57
+============================================================================
+
+Title: Effects of Word Alignment Visualization on Post-Editing Quality & Speed
+
+Authors: Lane Schwartz, Isabel Lacruz and Tatyana Bystrova
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                  Relevance to MT Summit: 5
+                             Originality: 3
+                               Substance: 4
+                 Soundness / Correctness: 4
+                                 Clarity: 5
+                   Meaningful Comparison: 4
+                          Recommendation: 5
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper examines the effect of providing word alignment information
+to post editors on post-editing quality.  The authors find that for
+weak MT alignment is very helpful but for strong MT alignment is not
+particularly helpful. A fairly careful post-editing experiment is
+designed to determine this and all data including timing results are
+released publicly, along with the post editing collection tool.
+
+The effect of various aspects of MT on PE have been discussed but real
+world experiments are rare, and rarer still are complete timing data
+sets. I think this release will be very helpful to the community and
+would like to see others use the same infrastruture to enrich the data
+set. The finding is not terribly surprising but it is nice to see a
+concrete experiment carried out without synthetic PE to validate the
+results.
+
+Figure 2 could be made more clear by representing the information as a
+100% stacked column. That is, for each of the four kinds of data, make
+a vertical column that stretches from 0 to 100. The column is
+subdivided into chunks of size corresponding to the % of each category
+(i.e. bottom is the 2s, then the 4s, etc.). If possible, label each
+chunk with the actual numerical value.
+
+It is good to know that participants were paid; this can potentially
+affect their efficiency. It might be nice to know specifically how
+they were paid (e.g. single fee for whole experiment, based on speed,
+based on quality, combination, other metric). This can affect behavior
+as well.
+
+I am very glad to see timing info provided. It can be difficult to
+capture working time, as humans multi task, forget to turn off timers
+when getting up from the computer, etc. A few sentences on how this
+noise was mitigated would be helpful.
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                  Relevance to MT Summit: 5
+                             Originality: 4
+                               Substance: 4
+                 Soundness / Correctness: 5
+                                 Clarity: 5
+                   Meaningful Comparison: 4
+                          Recommendation: 5
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The paper investigates the effect of displaying alignment information together
+with MT results on the performance of posteditors. For translation tasks
+involving translation from Russian and Spanish into English, a user interface
+was provided that can show the word alignment information together with source
+and target text, depending on the experimental setting. It is shown that such
+alignment information can make it simpler for posteditors to deal with
+low-quality MT result compared to a situation in which MT result are shown
+without alignment to the source text. The observed differences are significant
+for RU-EN MT, where MT quality is generally lower.
+
+The evaluation was done in a sytematic and thorough way, on data that is
+available to researchers who want to replicate these results. Furthermore, the
+authors announce to make the SW used for the experiments as well as the
+resulting datasets available to other researchers. This will facilitate
+follow-up work, which is definitely motivated to explore this very interesting
+idea in other scenarios, such as language pairs where MT quality is typically
+low.
+
+It would be interesting to know how cases are handled where alignment between
+source and MT result contains long-distance reordering. Is the graphical
+display of the alignment information still readable and useful? The example
+given in Figure 1 is relatively simple and does not allow to judge the utility
+of this idea in more complex situations.
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                  Relevance to MT Summit: 5
+                             Originality: 2
+                               Substance: 3
+                 Soundness / Correctness: 4
+                                 Clarity: 4
+                   Meaningful Comparison: 3
+                          Recommendation: 3
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The paper investigates the effect of presenting output word alignments to the
+editors on the quality and speed of post-editing of MT output. It studies
+Russian-English and Spanish-English translations.
+
+The experiments are designed well and the results are analyzed thoroughly and
+adequately. The findings, however, are that visualizing aligned output results
+in slight significant improvement for Russian-English and no improvement for
+Spanish-English. As one would expect, the alignments are more useful for
+low-quality MT output.
+
+I don't believe this paper is the last word on the usefulness of output
+alignments. For example, presenting alignments of maximal phrases rather than
+word-level alignments might be more useful. Also, user interfaces that allow
+the user to re-arrange and edit output blocks might make increase the
+efficiency of the post-editing process.

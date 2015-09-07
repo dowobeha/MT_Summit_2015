@@ -1,4 +1,4 @@
-﻿% !TEX root = paper.tex
+% !TEX root = paper.tex
 % !TEX encoding = UTF-8 Unicode
 
 
@@ -7,10 +7,11 @@
 
 \input{figure1}
 
+\vspace{-2mm}
 \section{Results}
 \label{sec:results}
 
-
+\vspace{-2mm}
 \subsection{Rating Translation Adequacy}
 
 Following the methodology outlined in \S\ref{sec:translation_quality}, all post-edited output as well as all machine translations were evaluated by bilingual human judges using the adequacy scales shown in Table~\ref{judge_guidelines} \vpageref{judge_guidelines}.
@@ -172,14 +173,30 @@ The mean adequacy score when Spanish bilingual participants were presented with 
 
 \subsubsection{Russian-English Timing}
 
-The times taken by the Russian-English post-editors to post-edit each text were recorded manually to the nearest minute. The mean times were 33 minutes for texts with alignment and 40 minutes for texts without alignment. This difference approached significance (p = .082).
+The times taken by the Russian-English post-editors to post-edit each text were recorded manually to the nearest minute.
+%
+Participants post-edited each text without a break.
+%
+They took a break of approximately five minutes between texts.
+%
+The mean times were 33 minutes for texts with alignment and 40 minutes for texts without alignment.
+%
+This difference approached significance (p = .082).
 
 \subsubsection{Spanish-English Timing}
 
-The times taken by the Spanish-English post-editors to post-edit each text were recorded by the keylogger to nearest millisecond. The mean times were 21 minutes  and 5 seconds for texts with alignment and 22 minutes and 5 seconds for texts without alignment. An independent samples t-test showed that these times are not significantly different from each other (t(18) = .295, p = .77.) 
+The times taken by the Spanish-English post-editors to post-edit each text were recorded by the keylogger to nearest millisecond.
+%
+Participants post-edited each text without a break.
+%
+They took a break of approximately five minutes between texts.
+%
+The mean times were 21 minutes  and 5 seconds for texts with alignment and 22 minutes and 5 seconds for texts without alignment.
+%
+An independent samples t-test showed that these times are not significantly different from each other (t(18) = .295, p = .77.) 
 %
 Participants were not given time limitations, so timing data must be interpreted with caution. Note, however, that the mean time with alignment is numerically shorter than the mean time without alignment.
-
+%
 The shorter editing times for Spanish-English may in part be explained by the shorter length of these documents.
 
 
@@ -228,15 +245,23 @@ If this is the case, shorter post-editing times for texts with alignment are con
 %
 Related work on cognitive effort in post-editing \citep{2014_AMTA_Lacruz_etal,2014_Lacruz_Shreve} has also shown decreased densities of short pauses when less cognitively demanding segments are post-edited. 
 
-The keystroke logging data gathered for Spanish-English post-editors allowed the computation of Pause to Word Ratio (PWR). For each segment, PWR is the ratio of the number of pauses exceeding 300ms to the number of words in the MT segment; it is a measure of cognitive effort in post-editing (Lacruz & Shreve, 2012). Higher PWR corresponds to higher cognitive effort.
-% INSERT REF TO FIG 6 AND INSERT FIG 6
+\input{figure7}
+
+The keystroke logging data gathered for Spanish-English post-editors allowed the computation of Pause to Word Ratio (PWR). For each segment, PWR is the ratio of the number of pauses exceeding 300ms to the number of words in the MT segment; it is a measure of cognitive effort in post-editing \citep{2014_Lacruz_Shreve}. Higher PWR corresponds to higher cognitive effort.
+%
+% Figure \Vref{fig:mean_pwr}
+%
 Contrary to expectation, the mean PWR for Spanish-English post-editors was slightly higher for the segments with alignment (0.70) than for those without alignment (0.63). However, the numerical difference was not significant. 
 
 It is possible that the effect of alignment on PWR was masked by the fact that the adequacy of the Spanish-English MT segments was generally high. Since our prediction is that alignment should both increase post-editing adequacy and reduce post-editing effort, the Gain to Effort Ratio, GER = (PE Rating – MT Rating)/PWR is a promising metric to investigate. We hypothesize that GER is higher for segments with alignment than for segments without alignment. 
 
-GER for segments with alignment was 2.53, and GER for segments without alignment was 1.47. Our prediction was confirmed: a paired samples t-test showed that GER was higher for segments with alignment (t(9) = 2.49, p =.034.)
+Figure \Vref{fig:mean_ger} \vpageref[above]{fig:mean_ger} shows GER for Spanish-English.
+%
+GER for segments with alignment was 2.53, and GER for segments without alignment was 1.47. Our prediction was confirmed: a paired samples t-test showed that GER was higher for segments with alignment (t(9) = 2.49, p =.034.).
+%
+%
 %INSERT REF TO FIG 7 AND INSERT FIG 7
-
+%
 This result suggests that GER may be a robust metric for measuring the effects of alignment on post-editing. It would be interesting to conduct further studies involving language pairs different from Spanish-English where the adequacy of machine translations may be lower.
 
 

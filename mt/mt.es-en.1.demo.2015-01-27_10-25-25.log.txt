@@ -1,0 +1,306 @@
+# Subject:	demo
+# Timestamp:	2015-01-27_10-25-25
+# Data:	/Users/lanes/2015_ACL_bpe.git/mt/mt.es-en.1
+# Output:	/Users/lanes/2015_ACL_bpe.git/mt/mt.es-en.1.demo.2015-01-27_10-25-25.output.txt
+# Log:	/Users/lanes/2015_ACL_bpe.git/mt/mt.es-en.1.demo.2015-01-27_10-25-25.log.txt
+# Showing alignments:	true
+0	FOCUS_GAINED		0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	FOCUS_GAINED,permanent,opposite=null
+173	MOUSE_ENTERED		0	2	Field		127	that the current programme is the basis on which can be found a compromise agreement for the extension of financial assistance.	MOUSE_ENTERED,(685,30),absolute(759,456),button=0,clickCount=0
+952	MOUSE_MOVED		0	2	Field		127	that the current programme is the basis on which can be found a compromise agreement for the extension of financial assistance.	MOUSE_MOVED,(150,31),absolute(758,456),clickCount=0
+967	MOUSE_EXITED		0	2	Field		127	that the current programme is the basis on which can be found a compromise agreement for the extension of financial assistance.	MOUSE_EXITED,(142,34),absolute(750,459),button=0,clickCount=0
+967	MOUSE_ENTERED		0	2	Panel				MOUSE_ENTERED,(142,128),absolute(750,459),button=0,clickCount=0
+967	MOUSE_MOVED		0	2	Panel				MOUSE_MOVED,(142,128),absolute(750,459),clickCount=0
+983	MOUSE_MOVED		0	2	Panel				MOUSE_MOVED,(123,132),absolute(731,463),clickCount=0
+1000	MOUSE_MOVED		0	2	Panel				MOUSE_MOVED,(94,139),absolute(702,470),clickCount=0
+1017	MOUSE_EXITED		0	2	Panel				MOUSE_EXITED,(56,149),absolute(664,480),button=0,clickCount=0
+60291	KEY_PRESSED	⌘	0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	KEY_PRESSED,keyCode=157,keyText=⌘,keyChar=Undefined keyChar,modifiers=⌘,extModifiers=⌘,keyLocation=KEY_LOCATION_RIGHT,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x9d
+60474	KEY_RELEASED	⌘	0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	KEY_RELEASED,keyCode=157,keyText=⌘,keyChar=Undefined keyChar,keyLocation=KEY_LOCATION_RIGHT,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x9d
+61511	FOCUS_LOST		0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	FOCUS_LOST,temporary,opposite=null
+68661	MOUSE_ENTERED		0	24	Source	2		mañana	MOUSE_ENTERED,(23,5),absolute(729,1160),button=0,clickCount=0
+68661	MOUSE_MOVED		0	24	Source	2		mañana	MOUSE_MOVED,(23,5),absolute(729,1160),clickCount=0
+68679	MOUSE_MOVED		0	24	Source	2		mañana	MOUSE_MOVED,(33,13),absolute(739,1168),clickCount=0
+68695	MOUSE_MOVED		0	24	Source	2		mañana	MOUSE_MOVED,(40,20),absolute(746,1175),clickCount=0
+68713	MOUSE_EXITED		0	24	Source	2		mañana	MOUSE_EXITED,(45,25),absolute(751,1180),button=0,clickCount=0
+68731	MOUSE_ENTERED		0	24	Panel				MOUSE_ENTERED,(71,36),absolute(754,1186),button=0,clickCount=0
+68731	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(71,36),absolute(754,1186),clickCount=0
+68747	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(73,43),absolute(756,1193),clickCount=0
+68764	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(75,50),absolute(758,1200),clickCount=0
+68779	MOUSE_EXITED		0	24	Panel				MOUSE_EXITED,(77,60),absolute(760,1210),button=0,clickCount=0
+68779	MOUSE_ENTERED		0	24	Target	2		Friday	MOUSE_ENTERED,(1,3),absolute(760,1210),button=0,clickCount=0
+68779	MOUSE_MOVED		0	24	Target	2		Friday	MOUSE_MOVED,(1,3),absolute(760,1210),clickCount=0
+68798	MOUSE_MOVED		0	24	Target	2		Friday	MOUSE_MOVED,(4,16),absolute(763,1223),clickCount=0
+68814	MOUSE_EXITED		0	24	Target	2		Friday	MOUSE_EXITED,(6,28),absolute(765,1235),button=0,clickCount=0
+68814	MOUSE_ENTERED		0	24	Panel				MOUSE_ENTERED,(82,85),absolute(765,1235),button=0,clickCount=0
+68814	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(82,85),absolute(765,1235),clickCount=0
+68832	MOUSE_EXITED		0	24	Panel				MOUSE_EXITED,(83,97),absolute(766,1247),button=0,clickCount=0
+68832	MOUSE_ENTERED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_ENTERED,(83,3),absolute(766,1247),button=0,clickCount=0
+68833	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(83,3),absolute(766,1247),clickCount=0
+68847	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(83,13),absolute(766,1257),clickCount=0
+68866	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(83,18),absolute(766,1262),clickCount=0
+68885	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(83,19),absolute(766,1263),clickCount=0
+68903	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(82,19),absolute(765,1263),clickCount=0
+68920	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(82,20),absolute(765,1264),clickCount=0
+68937	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(81,21),absolute(764,1265),clickCount=0
+68953	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(80,22),absolute(763,1266),clickCount=0
+68962	MOUSE_EXITED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_EXITED,(79,24),absolute(762,1268),button=0,clickCount=0
+68962	MOUSE_ENTERED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_ENTERED,(79,24),absolute(762,1268),button=0,clickCount=0
+68987	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(78,25),absolute(761,1269),clickCount=0
+69005	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,25),absolute(760,1269),clickCount=0
+69041	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,26),absolute(760,1270),clickCount=0
+69057	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,27),absolute(760,1271),clickCount=0
+69075	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,29),absolute(760,1273),clickCount=0
+69094	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,30),absolute(760,1274),clickCount=0
+69164	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(77,31),absolute(760,1275),clickCount=0
+69181	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(78,32),absolute(761,1276),clickCount=0
+69197	MOUSE_EXITED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_EXITED,(80,34),absolute(763,1278),button=0,clickCount=0
+69197	MOUSE_ENTERED		0	24	Panel				MOUSE_ENTERED,(80,128),absolute(763,1278),button=0,clickCount=0
+69197	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(80,128),absolute(763,1278),clickCount=0
+69215	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(81,130),absolute(764,1280),clickCount=0
+69231	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(82,131),absolute(765,1281),clickCount=0
+69249	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,132),absolute(766,1282),clickCount=0
+69566	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,133),absolute(766,1283),clickCount=0
+69582	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,135),absolute(766,1285),clickCount=0
+69597	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,136),absolute(766,1286),clickCount=0
+69616	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,137),absolute(766,1287),clickCount=0
+69634	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,138),absolute(766,1288),clickCount=0
+70441	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(83,137),absolute(766,1287),clickCount=0
+70457	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(84,137),absolute(767,1287),clickCount=0
+70852	MOUSE_EXITED		0	24	Panel				MOUSE_EXITED,(86,141),absolute(769,1291),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+70955	MOUSE_ENTERED		0	25	Source	0		El	MOUSE_ENTERED,(0,14),absolute(775,1312),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+70956	MOUSE_EXITED		0	25	Source	0		El	MOUSE_EXITED,(0,14),absolute(775,1312),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+70970	MOUSE_ENTERED		0	25	Source	0		El	MOUSE_ENTERED,(4,21),absolute(779,1319),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71001	MOUSE_EXITED		0	25	Source	0		El	MOUSE_EXITED,(9,28),absolute(784,1326),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71003	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(13,42),absolute(788,1335),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71018	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(13,42),absolute(788,1335),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71020	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(17,50),absolute(792,1343),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71084	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(23,65),absolute(798,1358),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71089	MOUSE_ENTERED		0	25	Target	0		The	MOUSE_ENTERED,(5,11),absolute(799,1361),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71102	MOUSE_EXITED		0	25	Target	0		The	MOUSE_EXITED,(5,11),absolute(799,1361),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71106	MOUSE_ENTERED		0	25	Target	0		The	MOUSE_ENTERED,(7,14),absolute(801,1364),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71119	MOUSE_EXITED		0	25	Target	0		The	MOUSE_EXITED,(7,14),absolute(801,1364),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71123	MOUSE_ENTERED		0	25	Target	0		The	MOUSE_ENTERED,(8,17),absolute(802,1367),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71147	MOUSE_EXITED		0	25	Target	0		The	MOUSE_EXITED,(10,20),absolute(804,1370),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71231	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(38,86),absolute(813,1379),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71232	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(38,86),absolute(813,1379),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71280	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(41,89),absolute(816,1382),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71280	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(41,89),absolute(816,1382),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71379	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(47,1),absolute(822,1388),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71386	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(47,1),absolute(822,1388),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71398	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(49,3),absolute(824,1390),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71402	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(49,3),absolute(824,1390),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71414	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(50,5),absolute(825,1392),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71419	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(50,5),absolute(825,1392),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71431	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(51,7),absolute(826,1394),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71435	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(51,7),absolute(826,1394),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71465	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(52,10),absolute(827,1397),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71614	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(65,34),absolute(840,1421),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71615	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(68,131),absolute(843,1424),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71684	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(77,137),absolute(852,1430),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71767	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(80,138),absolute(855,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71768	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(80,138),absolute(855,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71783	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(83,138),absolute(858,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71784	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(83,138),absolute(858,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71801	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(87,139),absolute(862,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71802	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(87,139),absolute(862,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71818	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(90,139),absolute(865,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71819	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(90,139),absolute(865,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71835	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(92,140),absolute(867,1433),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71851	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(93,140),absolute(868,1433),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+71887	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(96,140),absolute(871,1433),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72069	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(151,142),absolute(926,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72073	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(157,142),absolute(932,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72099	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(161,142),absolute(936,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72115	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(164,142),absolute(939,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72116	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(164,142),absolute(939,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72957	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(810,142),absolute(1585,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72971	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(810,142),absolute(1585,1435),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72974	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(816,141),absolute(1591,1434),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72986	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(816,141),absolute(1591,1434),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+72991	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(824,139),absolute(1599,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73004	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(824,139),absolute(1599,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73008	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(836,138),absolute(1611,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73121	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(897,137),absolute(1672,1430),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73126	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(905,138),absolute(1680,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73138	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(905,138),absolute(1680,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73144	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(912,139),absolute(1687,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73154	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(912,139),absolute(1687,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73161	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(918,139),absolute(1693,1432),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73220	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(932,138),absolute(1707,1431),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73233	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(934,137),absolute(1709,1430),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73237	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(934,137),absolute(1709,1430),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73249	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(936,135),absolute(1711,1428),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73254	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(936,135),absolute(1711,1428),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73427	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(942,133),absolute(1717,1426),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73428	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(942,133),absolute(1717,1426),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73443	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(947,132),absolute(1722,1425),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73470	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(953,132),absolute(1728,1425),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73475	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(959,132),absolute(1734,1425),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73570	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(971,129),absolute(1746,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73583	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(973,129),absolute(1748,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73601	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(975,129),absolute(1750,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73617	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(977,129),absolute(1752,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73618	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(977,129),absolute(1752,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73635	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(980,129),absolute(1755,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73635	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(980,129),absolute(1755,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73650	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(982,129),absolute(1757,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73651	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(982,129),absolute(1757,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73666	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(986,129),absolute(1761,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73667	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(986,129),absolute(1761,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73684	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(989,129),absolute(1764,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73685	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(989,129),absolute(1764,1422),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73701	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(993,130),absolute(1768,1423),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+73737	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(999,131),absolute(1774,1424),button=0,modifiers=Button1,extModifiers=Button1,clickCount=0
+79356	MOUSE_ENTERED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_ENTERED,(984,32),absolute(1759,1419),button=0,clickCount=0
+79357	MOUSE_MOVED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_MOVED,(984,32),absolute(1759,1419),clickCount=0
+79373	MOUSE_MOVED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_MOVED,(971,28),absolute(1746,1415),clickCount=0
+79389	MOUSE_MOVED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_MOVED,(955,21),absolute(1730,1408),clickCount=0
+79406	MOUSE_MOVED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_MOVED,(938,12),absolute(1713,1399),clickCount=0
+79424	MOUSE_MOVED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_MOVED,(921,1),absolute(1696,1388),clickCount=0
+79440	MOUSE_EXITED		0	25	Field		95	The ECB last night gave a boost to Athens, with the extension of the emergency liquidity lines.	MOUSE_EXITED,(903,-16),absolute(1678,1371),button=0,clickCount=0
+79441	MOUSE_ENTERED		0	25	Target	29		liquidity	MOUSE_ENTERED,(65,21),absolute(1678,1371),button=0,clickCount=0
+79441	MOUSE_MOVED		0	25	Target	29		liquidity	MOUSE_MOVED,(65,21),absolute(1678,1371),clickCount=0
+79457	MOUSE_MOVED		0	25	Target	29		liquidity	MOUSE_MOVED,(48,2),absolute(1661,1352),clickCount=0
+79474	MOUSE_EXITED		0	25	Target	29		liquidity	MOUSE_EXITED,(23,-19),absolute(1636,1331),button=0,clickCount=0
+79474	MOUSE_ENTERED		0	25	Panel				MOUSE_ENTERED,(861,38),absolute(1636,1331),button=0,clickCount=0
+79474	MOUSE_MOVED		0	25	Panel				MOUSE_MOVED,(861,38),absolute(1636,1331),clickCount=0
+79491	MOUSE_EXITED		0	25	Panel				MOUSE_EXITED,(834,15),absolute(1609,1308),button=0,clickCount=0
+79491	MOUSE_ENTERED		0	25	Source	29		liquidez	MOUSE_ENTERED,(63,10),absolute(1609,1308),button=0,clickCount=0
+79491	MOUSE_MOVED		0	25	Source	29		liquidez	MOUSE_MOVED,(63,10),absolute(1609,1308),clickCount=0
+79509	MOUSE_EXITED		0	25	Source	29		liquidez	MOUSE_EXITED,(27,-15),absolute(1573,1283),button=0,clickCount=0
+79509	MOUSE_ENTERED		0	24	Panel				MOUSE_ENTERED,(890,133),absolute(1573,1283),button=0,clickCount=0
+79509	MOUSE_MOVED		0	24	Panel				MOUSE_MOVED,(890,133),absolute(1573,1283),clickCount=0
+79526	MOUSE_EXITED		0	24	Panel				MOUSE_EXITED,(855,108),absolute(1538,1258),button=0,clickCount=0
+79526	MOUSE_ENTERED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_ENTERED,(855,14),absolute(1538,1258),button=0,clickCount=0
+79526	MOUSE_MOVED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_MOVED,(855,14),absolute(1538,1258),clickCount=0
+79542	MOUSE_EXITED		0	24	Field		111	and Friday morning by the Ministers of the zone euro (Eurogroup), as also confirmed by Dijsselbloem on Twitter.	MOUSE_EXITED,(822,-13),absolute(1505,1231),button=0,clickCount=0
+79597	MOUSE_ENTERED		0	24	Source	23		 ha 	MOUSE_ENTERED,(28,3),absolute(1420,1158),button=0,clickCount=0
+79597	MOUSE_MOVED		0	24	Source	23		 ha 	MOUSE_MOVED,(28,3),absolute(1420,1158),clickCount=0
+79610	MOUSE_EXITED		0	24	Source	23		 ha 	MOUSE_EXITED,(9,-16),absolute(1401,1139),button=0,clickCount=0
+79611	MOUSE_ENTERED		0	23	Panel				MOUSE_ENTERED,(534,132),absolute(1401,1139),button=0,clickCount=0
+79611	MOUSE_MOVED		0	23	Panel				MOUSE_MOVED,(534,132),absolute(1401,1139),clickCount=0
+79626	MOUSE_EXITED		0	23	Panel				MOUSE_EXITED,(516,113),absolute(1383,1120),button=0,clickCount=0
+79626	MOUSE_ENTERED		0	23	Field		74	The Greek request will be examined Thursday by the Eurogroup working group	MOUSE_ENTERED,(516,19),absolute(1383,1120),button=0,clickCount=0
+79626	MOUSE_MOVED		0	23	Field		74	The Greek request will be examined Thursday by the Eurogroup working group	MOUSE_MOVED,(516,19),absolute(1383,1120),clickCount=0
+79643	MOUSE_EXITED		0	23	Field		74	The Greek request will be examined Thursday by the Eurogroup working group	MOUSE_EXITED,(499,-1),absolute(1366,1100),button=0,clickCount=0
+79643	MOUSE_ENTERED		0	23	Panel				MOUSE_ENTERED,(499,93),absolute(1366,1100),button=0,clickCount=0
+79643	MOUSE_MOVED		0	23	Panel				MOUSE_MOVED,(499,93),absolute(1366,1100),clickCount=0
+79666	MOUSE_EXITED		0	23	Panel				MOUSE_EXITED,(486,75),absolute(1353,1082),button=0,clickCount=0
+79666	MOUSE_ENTERED		0	23	Target	12		by	MOUSE_ENTERED,(10,18),absolute(1353,1082),button=0,clickCount=0
+79666	MOUSE_MOVED		0	23	Target	12		by	MOUSE_MOVED,(10,18),absolute(1353,1082),clickCount=0
+79678	MOUSE_EXITED		0	23	Target	12		by	MOUSE_EXITED,(2,-3),absolute(1345,1061),button=0,clickCount=0
+79729	MOUSE_ENTERED		0	22	Field		104	And Athens has even already a primary surplus (excluding interest payments) that show off and negotiate.	MOUSE_ENTERED,(612,21),absolute(1323,979),button=0,clickCount=0
+79729	MOUSE_MOVED		0	22	Field		104	And Athens has even already a primary surplus (excluding interest payments) that show off and negotiate.	MOUSE_MOVED,(612,21),absolute(1323,979),clickCount=0
+79747	MOUSE_EXITED		0	22	Field		104	And Athens has even already a primary surplus (excluding interest payments) that show off and negotiate.	MOUSE_EXITED,(602,-13),absolute(1313,945),button=0,clickCount=0
+79764	MOUSE_ENTERED		0	22	Panel				MOUSE_ENTERED,(590,44),absolute(1301,908),button=0,clickCount=0
+79764	MOUSE_MOVED		0	22	Panel				MOUSE_MOVED,(590,44),absolute(1301,908),clickCount=0
+79780	MOUSE_EXITED		0	22	Panel				MOUSE_EXITED,(579,8),absolute(1290,872),button=0,clickCount=0
+79780	MOUSE_ENTERED		0	22	Source	16		(sin contar	MOUSE_ENTERED,(71,3),absolute(1290,872),button=0,clickCount=0
+79780	MOUSE_MOVED		0	22	Source	16		(sin contar	MOUSE_MOVED,(71,3),absolute(1290,872),clickCount=0
+79797	MOUSE_EXITED		0	22	Source	16		(sin contar	MOUSE_EXITED,(60,-36),absolute(1279,833),button=0,clickCount=0
+79797	MOUSE_ENTERED		0	21	Field		30	Capital flight is not stopped.	MOUSE_ENTERED,(185,18),absolute(1279,833),button=0,clickCount=0
+79797	MOUSE_MOVED		0	21	Field		30	Capital flight is not stopped.	MOUSE_MOVED,(185,18),absolute(1279,833),clickCount=0
+79813	MOUSE_EXITED		0	21	Field		30	Capital flight is not stopped.	MOUSE_EXITED,(173,-18),absolute(1267,797),button=0,clickCount=0
+79813	MOUSE_ENTERED		0	21	Target	4		is	MOUSE_ENTERED,(5,19),absolute(1267,797),button=0,clickCount=0
+79813	MOUSE_MOVED		0	21	Target	4		is	MOUSE_MOVED,(5,19),absolute(1267,797),clickCount=0
+79823	MOUSE_EXITED		0	21	Target	4		is	MOUSE_EXITED,(-9,-18),absolute(1253,760),button=0,clickCount=0
+79840	MOUSE_ENTERED		0	20	Panel				MOUSE_ENTERED,(105,142),absolute(1239,720),button=0,clickCount=0
+79865	MOUSE_EXITED		0	20	Panel				MOUSE_EXITED,(90,104),absolute(1224,682),button=0,clickCount=0
+79865	MOUSE_ENTERED		0	20	Field		25	The economy has stopped. 	MOUSE_ENTERED,(90,10),absolute(1224,682),button=0,clickCount=0
+79865	MOUSE_MOVED		0	20	Field		25	The economy has stopped. 	MOUSE_MOVED,(90,10),absolute(1224,682),clickCount=0
+79882	MOUSE_EXITED		0	20	Field		25	The economy has stopped. 	MOUSE_EXITED,(71,-27),absolute(1205,645),button=0,clickCount=0
+79882	MOUSE_ENTERED		0	20	Target	2		economy	MOUSE_ENTERED,(25,10),absolute(1205,645),button=0,clickCount=0
+79882	MOUSE_MOVED		0	20	Target	2		economy	MOUSE_MOVED,(25,10),absolute(1205,645),clickCount=0
+79899	MOUSE_EXITED		0	20	Target	2		economy	MOUSE_EXITED,(6,-25),absolute(1186,610),button=0,clickCount=0
+79899	MOUSE_ENTERED		0	20	Panel				MOUSE_ENTERED,(52,32),absolute(1186,610),button=0,clickCount=0
+79899	MOUSE_MOVED		0	20	Panel				MOUSE_MOVED,(52,32),absolute(1186,610),clickCount=0
+79917	MOUSE_EXITED		0	20	Panel				MOUSE_EXITED,(34,0),absolute(1168,578),button=0,clickCount=0
+79933	MOUSE_ENTERED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_ENTERED,(158,16),absolute(1144,545),button=0,clickCount=0
+79933	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(158,16),absolute(1144,545),clickCount=0
+79949	MOUSE_EXITED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_EXITED,(131,-17),absolute(1117,512),button=0,clickCount=0
+79949	MOUSE_ENTERED		0	19	Target	4		its	MOUSE_ENTERED,(11,20),absolute(1117,512),button=0,clickCount=0
+79949	MOUSE_MOVED		0	19	Target	4		its	MOUSE_MOVED,(11,20),absolute(1117,512),clickCount=0
+79966	MOUSE_EXITED		0	19	Target	4		its	MOUSE_EXITED,(-17,-8),absolute(1089,484),button=0,clickCount=0
+79966	MOUSE_ENTERED		0	19	Panel				MOUSE_ENTERED,(103,49),absolute(1089,484),button=0,clickCount=0
+79966	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(103,49),absolute(1089,484),clickCount=0
+79983	MOUSE_EXITED		0	19	Panel				MOUSE_EXITED,(78,26),absolute(1064,461),button=0,clickCount=0
+79983	MOUSE_ENTERED		0	19	Source	0		Atenas	MOUSE_ENTERED,(51,21),absolute(1064,461),button=0,clickCount=0
+79983	MOUSE_MOVED		0	19	Source	0		Atenas	MOUSE_MOVED,(51,21),absolute(1064,461),clickCount=0
+80000	MOUSE_MOVED		0	19	Source	0		Atenas	MOUSE_MOVED,(29,5),absolute(1042,446),clickCount=0
+80017	MOUSE_EXITED		0	19	Source	0		Atenas	MOUSE_EXITED,(12,-4),absolute(1025,436),button=0,clickCount=0
+80035	MOUSE_ENTERED		0	18	Panel				MOUSE_ENTERED,(313,140),absolute(1016,432),button=0,clickCount=0
+80035	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(313,140),absolute(1016,432),clickCount=0
+80052	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(308,139),absolute(1011,431),clickCount=0
+80069	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(305,139),absolute(1008,431),clickCount=0
+80086	MOUSE_EXITED		0	18	Panel				MOUSE_EXITED,(303,143),absolute(1006,435),button=0,clickCount=0
+80086	MOUSE_ENTERED		0	19	Panel				MOUSE_ENTERED,(20,0),absolute(1006,435),button=0,clickCount=0
+80086	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(20,0),absolute(1006,435),clickCount=0
+80102	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(17,6),absolute(1003,441),clickCount=0
+80120	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(15,16),absolute(1001,451),clickCount=0
+80138	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(10,28),absolute(996,463),clickCount=0
+80153	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(8,40),absolute(994,475),clickCount=0
+80173	MOUSE_EXITED		0	19	Panel				MOUSE_EXITED,(7,52),absolute(993,487),button=0,clickCount=0
+80188	MOUSE_ENTERED		0	19	Target	0		Athens	MOUSE_ENTERED,(6,7),absolute(992,499),button=0,clickCount=0
+80188	MOUSE_MOVED		0	19	Target	0		Athens	MOUSE_MOVED,(6,7),absolute(992,499),clickCount=0
+80205	MOUSE_MOVED		0	19	Target	0		Athens	MOUSE_MOVED,(5,20),absolute(991,512),clickCount=0
+80222	MOUSE_EXITED		0	19	Target	0		Athens	MOUSE_EXITED,(5,31),absolute(991,523),button=0,clickCount=0
+80222	MOUSE_ENTERED		0	19	Panel				MOUSE_ENTERED,(5,88),absolute(991,523),button=0,clickCount=0
+80222	MOUSE_MOVED		0	19	Panel				MOUSE_MOVED,(5,88),absolute(991,523),clickCount=0
+80239	MOUSE_EXITED		0	19	Panel				MOUSE_EXITED,(5,95),absolute(991,530),button=0,clickCount=0
+80239	MOUSE_ENTERED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_ENTERED,(5,1),absolute(991,530),button=0,clickCount=0
+80239	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(5,1),absolute(991,530),clickCount=0
+80256	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(5,6),absolute(991,535),clickCount=0
+80275	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(4,6),absolute(990,535),clickCount=0
+80758	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(4,7),absolute(990,536),clickCount=0
+80773	MOUSE_MOVED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_MOVED,(3,8),absolute(989,537),clickCount=0
+80790	MOUSE_EXITED		0	19	Field		55	Athens and its banks do not have access to the market. 	MOUSE_EXITED,(-1,11),absolute(985,540),button=0,clickCount=0
+109540	MOUSE_ENTERED		0	18	Source	4		necesidades	MOUSE_ENTERED,(15,5),absolute(779,302),button=0,clickCount=0
+109564	MOUSE_MOVED		0	18	Source	4		necesidades	MOUSE_MOVED,(29,6),absolute(793,303),clickCount=0
+109581	MOUSE_MOVED		0	18	Source	4		necesidades	MOUSE_MOVED,(38,6),absolute(802,303),clickCount=0
+109598	MOUSE_MOVED		0	18	Source	4		necesidades	MOUSE_MOVED,(45,5),absolute(809,302),clickCount=0
+109614	MOUSE_MOVED		0	18	Source	4		necesidades	MOUSE_MOVED,(48,2),absolute(812,299),clickCount=0
+109631	MOUSE_EXITED		0	18	Source	4		necesidades	MOUSE_EXITED,(50,-1),absolute(814,296),button=0,clickCount=0
+109947	MOUSE_ENTERED		0	17	Panel				MOUSE_ENTERED,(25,128),absolute(991,277),button=0,clickCount=0
+109973	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(31,130),absolute(997,279),clickCount=0
+109991	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(33,131),absolute(999,280),clickCount=0
+110257	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(33,132),absolute(999,281),clickCount=0
+110276	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(32,132),absolute(998,281),clickCount=0
+110292	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(38,132),absolute(1004,281),clickCount=0
+110309	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(52,131),absolute(1018,280),clickCount=0
+110325	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(73,131),absolute(1039,280),clickCount=0
+110342	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(102,134),absolute(1068,283),clickCount=0
+110359	MOUSE_MOVED		0	17	Panel				MOUSE_MOVED,(141,138),absolute(1107,287),clickCount=0
+110376	MOUSE_EXITED		0	17	Panel				MOUSE_EXITED,(190,144),absolute(1156,293),button=0,clickCount=0
+110392	MOUSE_ENTERED		0	18	Source	14		inasumibles	MOUSE_ENTERED,(77,3),absolute(1216,300),button=0,clickCount=0
+110392	MOUSE_MOVED		0	18	Source	14		inasumibles	MOUSE_MOVED,(77,3),absolute(1216,300),clickCount=0
+110409	MOUSE_EXITED		0	18	Source	14		inasumibles	MOUSE_EXITED,(138,13),absolute(1277,310),button=0,clickCount=0
+110409	MOUSE_ENTERED		0	18	Source	16		por	MOUSE_ENTERED,(21,13),absolute(1277,310),button=0,clickCount=0
+110409	MOUSE_MOVED		0	18	Source	16		por	MOUSE_MOVED,(21,13),absolute(1277,310),clickCount=0
+110426	MOUSE_EXITED		0	18	Source	16		por	MOUSE_EXITED,(79,22),absolute(1335,319),button=0,clickCount=0
+110470	MOUSE_ENTERED		0	18	Target	26		the	MOUSE_ENTERED,(0,4),absolute(1489,353),button=0,clickCount=0
+110495	MOUSE_EXITED		0	18	Target	26		the	MOUSE_EXITED,(39,16),absolute(1528,365),button=0,clickCount=0
+110527	MOUSE_ENTERED		0	18	Panel				MOUSE_ENTERED,(884,91),absolute(1587,383),button=0,clickCount=0
+110527	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(884,91),absolute(1587,383),clickCount=0
+110546	MOUSE_EXITED		0	18	Panel				MOUSE_EXITED,(902,97),absolute(1605,389),button=0,clickCount=0
+110546	MOUSE_ENTERED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_ENTERED,(902,3),absolute(1605,389),button=0,clickCount=0
+110546	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(902,3),absolute(1605,389),clickCount=0
+110561	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(912,7),absolute(1615,393),clickCount=0
+110578	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(916,10),absolute(1619,396),clickCount=0
+110598	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(917,11),absolute(1620,397),clickCount=0
+110615	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(917,13),absolute(1620,399),clickCount=0
+110631	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(917,14),absolute(1620,400),clickCount=0
+110647	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(914,16),absolute(1617,402),clickCount=0
+110664	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(907,19),absolute(1610,405),clickCount=0
+110681	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(896,22),absolute(1599,408),clickCount=0
+110699	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(886,25),absolute(1589,411),clickCount=0
+110716	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(872,27),absolute(1575,413),clickCount=0
+110732	MOUSE_MOVED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_MOVED,(854,32),absolute(1557,418),clickCount=0
+110748	MOUSE_EXITED		0	18	Field		111	and the financial needs of Greece are impractical by the Greek State without the help of its European partners.	MOUSE_EXITED,(831,38),absolute(1534,424),button=0,clickCount=0
+110748	MOUSE_ENTERED		0	18	Panel				MOUSE_ENTERED,(831,132),absolute(1534,424),button=0,clickCount=0
+110748	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(831,132),absolute(1534,424),clickCount=0
+110765	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(805,136),absolute(1508,428),clickCount=0
+110782	MOUSE_MOVED		0	18	Panel				MOUSE_MOVED,(781,141),absolute(1484,433),clickCount=0
+110792	MOUSE_EXITED		0	18	Panel				MOUSE_EXITED,(755,147),absolute(1458,439),button=0,clickCount=0
+112501	FOCUS_GAINED		0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	FOCUS_GAINED,permanent,opposite=null
+112719	KEY_PRESSED	Unknown keyCode: 0x0	0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	KEY_PRESSED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar=Undefined keyChar,keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0
+114313	KEY_PRESSED	⌘	0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	KEY_PRESSED,keyCode=157,keyText=⌘,keyChar=Undefined keyChar,modifiers=⌘,extModifiers=⌘,keyLocation=KEY_LOCATION_RIGHT,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x9d
+114424	KEY_PRESSED	Q	0	0	Field		0-102	In its proposal, Greece made notable concessions, according to the sources consulted in the Eurogroup.	KEY_PRESSED,keyCode=81,keyText=Q,keyChar='q',modifiers=⌘,extModifiers=⌘,keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x51

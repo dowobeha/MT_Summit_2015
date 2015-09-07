@@ -8,3 +8,5 @@ data.unused/
 *.log
 *.pdf
 *.synctex.gz
+*.zip
+*.tar.bz

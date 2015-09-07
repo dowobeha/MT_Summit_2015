@@ -68,16 +68,22 @@
 \addplot 
 	coordinates {};
 
-\addplot coordinates {(4,6.6) (6,7.7272727272727275) (8,8.818181818181818) (10,9.923076923076923) };
-\addplot coordinates {(4,6.0) (6,8.090909090909092) (8,8.909090909090908) (10,9.384615384615385) };
-\addplot[red,sharp plot,update limits=false] coordinates { (-1,7.686274509803922) (12,7.686274509803922) };
+%	Adequacy with align	Adequacy w/o align%2		%4	6.92	5.84%6	7.85	8.11%8	8.36	8.25%10	9.78	9.22
+
+\addplot coordinates {(4,6.92) (6,7.85) (8,8.36) (10,9.78) };
+\addplot coordinates {(4,5.84) (6,8.11) (8,8.25) (10,9.22) };
+\addplot[red,sharp plot,update limits=false] coordinates { (-1,7.14) (12,7.14) };
+	
+%\addplot coordinates {(4,6.6) (6,7.7272727272727275) (8,8.818181818181818) (10,9.923076923076923) };
+%\addplot coordinates {(4,6.0) (6,8.090909090909092) (8,8.909090909090908) (10,9.384615384615385) };
+%\addplot[red,sharp plot,update limits=false] coordinates { (-1,7.686274509803922) (12,7.686274509803922) };
 
 \legend{Bilingual PE with Alignments,Bilingual PE no Alignments}
 \end{axis}
 \end{tikzpicture}
 \end{center}
 \end{subfigure}
-\caption{Mean adequacy score, categorized by the adequacy score of the unedited MT. The red horizontal line indicates the mean adequacy score (Russian-English: 6.1; Spanish-English: 7.7) of the unedited MT.}
+\caption{Mean adequacy score, categorized by the adequacy score of the unedited MT. The red horizontal line indicates the mean adequacy score (Russian-English: 6.1; Spanish-English: 7.1) of the unedited MT.}
 \label{fig:mean_adequacy_score}
 \end{figure}
 
