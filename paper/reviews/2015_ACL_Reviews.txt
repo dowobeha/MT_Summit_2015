@@ -1,0 +1,193 @@
+Dear Lane Schwartz:
+
+We are sorry to inform you that the following submission
+was not selected by the program committee to appear at
+ACL-IJCNLP 2015:
+
+Effects of Word Alignment Visualization on
+           Post-Editing Quality and Speed
+
+The selection process was very competitive. Due to time
+and space limitations, we could only choose a small number
+of the submitted papers to appear on the program. This year the acceptance rate is only 25%. Nonetheless, we still hope you can attend the conference.
+
+We have enclosed the reviewer comments for your perusal.
+
+Your co-authors will not have received this email so please forward to them.
+
+If you have any additional questions, please feel free
+to get in touch.
+
+Best Regards,
+Chengqing Zong and Michael Strube
+ACL-IJCNLP 2015 Program Chairs
+
+
+============================================================================
+ACL-IJCNLP 2015 Reviews for Submission #592
+============================================================================
+
+Title: Effects of Word Alignment Visualization on Post-Editing Quality and Speed
+
+Authors: Lane Schwartz and Isabel Lacruz
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         APPROPRIATENESS: 5
+                                 CLARITY: 4
+                             ORIGINALITY: 4
+                 SOUNDNESS / CORRECTNESS: 4
+                           REPLICABILITY: 3
+                   MEANINGFUL COMPARISON: 5
+                               SUBSTANCE: 2
+              IMPACT OF IDEAS OR RESULTS: 2
+         IMPACT OF ACCOMPANYING SOFTWARE: 3
+          IMPACT OF ACCOMPANYING DATASET: 4
+                          RECOMMENDATION: 2
+                               MENTORING: NO
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The paper studied effect of presenting word alignment to post-editors in
+assisted translation. The result is that when the MT quality is poor,
+presenting machine translation to the editors will help both quality and speed.
+It is somehow intuitive and not surprising, however, scientifically
+experimenting with it and showing the results should be appreciated. Generally
+speaking, there are three problems of the paper.
+
+1. I can't understand Figure3, where Monolingual PE with Alignments gives a
+mean score of 10, when the original adequacy score was 0-2. It doesn't make
+sense to me. Could you please explain? Maybe I missed something.
+
+2. The scale of the experiment is a little too small, although the result is
+convincing (because it is not surprising), two languages and 6 post-editors
+sounds too small a scale to draw a conclusion.
+
+3. Deeper analysis of the editor behavior is missing. As I mentioned, the
+result is not surprising at all since you give editors more information, and
+they do better, that's expected. But what exactly did they improve? Is it more
+about word choices or the ordering? Will the presenting alignment make the
+editor more likely to change the order or less likely to do so?
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         APPROPRIATENESS: 5
+                                 CLARITY: 5
+                             ORIGINALITY: 3
+                 SOUNDNESS / CORRECTNESS: 3
+                           REPLICABILITY: 4
+                   MEANINGFUL COMPARISON: 4
+                               SUBSTANCE: 3
+              IMPACT OF IDEAS OR RESULTS: 3
+         IMPACT OF ACCOMPANYING SOFTWARE: 4
+          IMPACT OF ACCOMPANYING DATASET: 4
+                          RECOMMENDATION: 3
+                               MENTORING: NO
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper studies the effects of presenting word alignments during
+post-editing. The authors conduct bilingual post-editing experiments for
+Russian-English (using 6 bilingual translators) and for Spanish-English (using
+4 bilingual translators).
+
+They show that when machine translation quality is low, post-editing quality is
+consistently higher when the post-editors are presented with alignments. They
+also find that that the mean post-editing times are shorter for texts with
+alignment vs without. However, when the translation quality is high, alignments
+don't help much.
+
+The paper hypothesizes that word alignment visualization would enable
+post-editors to better recover from translation errors produced by MT systems.
+I don't find this fully satisfactory. Some of the errors that that MT system is
+making is probably because faulty alignments, which are now being shown to post
+editors
+
+The experiments are quite small, with at most 6 bilingual translators. Also,
+more analysis is needed to illuminate why the alignments are helping with
+post-editing. For example, which of the alignment links are actually helping
+the post-editors the most ? Is it the alignment links between frequent english
+and Russian/Spanish words, which are probably reliable ? The paper's biggest
+strength lies in the accompanying post-editing software and the data from the
+experiments.
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         APPROPRIATENESS: 5
+                                 CLARITY: 4
+                             ORIGINALITY: 2
+                 SOUNDNESS / CORRECTNESS: 2
+                           REPLICABILITY: 3
+                   MEANINGFUL COMPARISON: 2
+                               SUBSTANCE: 2
+              IMPACT OF IDEAS OR RESULTS: 2
+         IMPACT OF ACCOMPANYING SOFTWARE: 3
+          IMPACT OF ACCOMPANYING DATASET: 3
+                          RECOMMENDATION: 2
+                               MENTORING: NO
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper investigates the impact alignment visualization can have on
+post-editing.
+
+Investigating how to help editors with the task of correction MT
+output is definitely worthwhile, but I am not sure there are many new
+insights in this paper.
+
+Firstly, this study is rather limited in scope (somewhat
+understandably as annotation is costly/time consuming). In addition,
+there are a number of variables that vary across the different
+settings, making it difficult to isolate the impact the alignment
+visualization itself has. For instance, all high-quality translations
+come from Spanish sources, while all lower-quality ones come from
+Russian sources. These languages are rather different, with Russian
+being morphologically much more complex and allowing for more
+reordering than Spanish-English. In addition, the Russian source
+segments are significantly longer on average than the Spanish
+segments. Of course, these aspects correlate with translation quality,
+but it is difficult to conclude that it is MT quality by itself that
+allows one to decide whether alignment information is beneficial and
+not one of the many other aspects. It would have been better to focus
+on one language to eliminate these additional variations.
+
+Also, there is very little information on the word alignments
+themselves. How good are they? How many one-to-one/many-to-one etc
+alignments are there? How many long-distance alignments are there? One
+can imagine that all of this can have an impact on their usefulness.
+It should also be mentioned what 'script' is used to generate the word
+alignments for the Bing Spanish-English translations. How different
+are they from the Moses alignments?
+
+Regarding the manual quality assessments, only adequacy is
+mentioned. What about fluency? At least it should be mentioned why
+only adequacy is considered.
