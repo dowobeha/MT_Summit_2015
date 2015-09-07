@@ -6,12 +6,12 @@ to appear to the proceedings of the MT Summit XV, Miama, Florida, 30 Oct - 3 Nov
 
 The files are organized as follows:
 
-* _paper_                     LaTeX source files for the paper
-* _supplement/code_           Scala source code for the software
-* _supplement/scripts         Ruby source code for helper scripts
-* _supplement/data            Unprocessed data files collected in the experiment
-* _analysis_                  Processed data and analysis files
-* _other_intermediate_files_  All other files. Mostly older versions of code and data.
+* **paper**                     LaTeX source files for the paper
+* **supplement/code**           Scala source code for the software
+* **supplement/scripts**         Ruby source code for helper scripts
+* **supplement/data**            Unprocessed data files collected in the experiment
+* **analysis**                  Processed data and analysis files
+* **other_intermediate_files**  All other files. Mostly older versions of code and data.
 
 
 The paper is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License. To view a copy of the license, visit http://creativecommons.org/licenses/by-nd/4.0/.
