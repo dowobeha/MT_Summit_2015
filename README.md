@@ -1,8 +1,8 @@
 This repository contains the data, code, scripts, and LaTeX files for the paper:
 
-Effects of Word Alignment Visualization on Post-Editing Quality & Speed
+**Effects of Word Alignment Visualization on Post-Editing Quality & Speed**
 by Lane Schwartz, Isabel Lacruz and Tatyana Bystrova
-to appear to the proceedings of the MT Summit XV, Miama, Florida, 30 Oct - 3 Nov 2015
+to appear in _The Proceedings of the MT Summit XV, Miama, Florida, 30 Oct - 3 Nov 2015_
 
 The files are organized as follows:
 
